@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+body{
+    font-family: 'Philosopher', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px !important;
+}
+nav{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 80px;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: green !important;
+}
+button{
+    
+    padding: 6px 16px;
+    background: var(--green);
+    height: 40px;
+    color: white;
+    background-color: green !important;
+    font-weight: 500;
+    margin: 20px ;
+}
+.img01 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 70px;
+  }
+  .hero{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px !important;
+    align-items: center !important;
+    
+    height: 60vh !important;
+
+  }
+  .hero-content h1{
+    font-weight: 800;
+    font-size: 80px !important;
+  }
+  .hero-image{
+    height: 50vh;
+   
+
+  }
